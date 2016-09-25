@@ -1,0 +1,52 @@
+body {
+  background-color: #cceeff;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  padding: 100px;
+}
+
+.header {
+  background-image: url("../img/banner.jpeg");
+  height: 400px;
+  background-size: cover;
+  border-style: solid;
+  border-width: medium;
+  border-color: #004466;
+  margin: 100px;
+  opacity: 0.5;
+}
+
+.header h1 {
+  padding-top: 150px;
+  font-size: 6em;
+  color: #00111a;
+}
+
+#result {
+  max-height: auto;
+  width: 500px;
+}
+
+.thailand {
+  background-image: url("../img/thailand.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.israel {
+  background-image: url("../img/israel.jpg");
+  background-size: cover;
+  max-width: 500px;
+  height: 500px;
+
+}
+.nepal {
+  background-image: url("../img/nepal.jpg");
+  background-size: cover;
+  max-width: 500px;
+  height: 500px;
+}

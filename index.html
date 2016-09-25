@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Destination</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container header">
+          <h1>Where should I go on vacation?</h1>
+    </div>
+        <div class="container form-group">
+          <form id="questions">
+            <label for="activity">What would you rather do?</label>
+            <select id="activity" class="form-control">
+              <option value="1">Lay on a beach</option>
+              <option value="2">Visit a museum</option>
+              <option value="3">Go bungee jumping or hiking</option>
+            </select>
+            <br>
+            <label for="food">What kind of food do you like to eat?</label>
+            <select id="food" class="form-control">
+              <option value="1">Street food</option>
+              <option value="2">I like to cook my own meals while traveling</option>
+              <option value="3">Expensive sit-down dinner</option>
+            </select>
+            <br>
+            <label for="beverage">What is your favorite drink?</label>
+            <select id="beverage" class="form-control">
+              <option value="1">Tea or Coffee</option>
+              <option value="2">Cocktail</option>
+              <option value="3">Beer or wine</option>
+            </select>
+            <br>
+            <label for="location">What is your favorite type of location?</label>
+            <select id="location" class="form-control">
+              <option value="1">Coastal/Beach</option>
+              <option value="2">Mountains/Outdoors</option>
+              <option value="3">City</option>
+            </select>
+            <br>
+            <label for="weather">What kind of weather do you prefer?</label>
+            <select id="beverage" class="form-control">
+              <option value="1">Hot and humid, tropical</option>
+              <option value="2">Hot and dry, desert</option>
+              <option value="3">Snow</option>
+            </select>
+            <br>
+            <button type="submit" class="btn btn-primary"> Where should I go?</button>
+          </form>
+            <div class="container">
+            <div class="row">
+              <div id="result" class="col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
