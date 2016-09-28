@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#questions").submit(function(event) {
+  $("form#questions").submit(function() {
     event.preventDefault();
 
     var answer1 = parseInt($("#activity").val());
@@ -22,6 +22,6 @@ $(document).ready(function() {
       $("#result").addClass("nepal");
       $("form#questions").hide();
       $("#result").show();
-      
+    }
   });
 });

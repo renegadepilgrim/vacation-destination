@@ -2,12 +2,6 @@ body {
   background-color: #cceeff;
 }
 
-h1 {
-  text-align: center;
-  margin: 50px;
-  padding: 100px;
-}
-
 .header {
   background-image: url("../img/banner.jpeg");
   height: 400px;
@@ -20,20 +14,23 @@ h1 {
 }
 
 .header h1 {
-  padding-top: 150px;
+  text-align: center;
+  margin: 50px;
+  padding: 100px;
+  padding-top: 100px;
   font-size: 6em;
   color: #00111a;
 }
 
-#result {
-  max-height: auto;
-  width: 500px;
+.result {
+  height: auto;
+  width: auto;
 }
 
 .thailand {
   background-image: url("../img/thailand.jpg");
   background-size: cover;
-  width: 500px;
+  max-width: 500px;
   height: 500px;
 }
 
