@@ -13,9 +13,9 @@ This is a basic website designed to determine your vacation destination based of
 
 I do not have any specific setup instructions for this site.
 
-<h2>Link to GitHub Page to View Portfolio</h2>
+<h2>Link to GitHub Page to View Vacation Destination site</h2>
 
-http://renegadepilgrim.github.io/portfolio
+https://renegadepilgrim.github.io/vacation-destination/
 
 <h2>License</h2>
 
